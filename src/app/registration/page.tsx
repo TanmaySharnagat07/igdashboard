@@ -1,8 +1,8 @@
 // my Code ------------->
 "use client";
-import Login from "./components/Login";
+import Login from "@/components/authentication/Login";
 import { useState } from "react";
-import SignUp from "./components/SignUp";
+import SignUp from "@/components/authentication/SignUp";
 import Image from "next/image";
 
 function Home() {
@@ -46,10 +46,9 @@ function Home() {
   );
 }
 
+export default Home;
+
 // Your code ------------------------->
-
-// export default Home;
-
 // import { Metadata } from "next";
 // import Image from "next/image";
 // import Link from "next/link";

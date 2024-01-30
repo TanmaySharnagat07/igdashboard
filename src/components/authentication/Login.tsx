@@ -6,7 +6,7 @@ import {Button} from "@/components/ui/button";
 const Login = () => {
   return (
     <>
-      <div>
+      <div className="text-black">
         <div className="px-10 py-12 rounded-3xl bg-white border-2">
           <h1 className="text-5xl font-semibold">
             <span className="text-[#98C58B] hover:text-[#18939B]">Welcome</span>{" "}

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const SignUp = (props: any) => {
   return (
     <>
-      <div className="px-10 py-8 rounded-3xl bg-white border-2">
+      <div className="px-10 py-8 rounded-3xl bg-white border-2 text-black">
         <h1 className="text-5xl font-semibold">
           <span className="text-[#98C58B] hover:text-[#18939B] transition-all">
             Create
